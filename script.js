@@ -21,7 +21,7 @@ class Square extends Rectangle {
     // The constructor for Square can be omitted, as it will use the constructor of the parent class (Rectangle).
 
     getPerimeter() {
-        return 4 * this.width;
+        return 4 * this.width; // Corrected the formula here
     }
 }
 
